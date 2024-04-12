@@ -1,0 +1,59 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1, h2 {
+    margin: 20px 0;
+}
+
+.workout {
+    text-align: center;
+    padding: 20px;
+}
+
+.routine-options {
+    display: flex;
+    flex-direction: column; /* Display options vertically */
+    align-items: center; /* Center options horizontally */
+}
+
+.routine-option {
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.routine-option img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.routine-option p {
+    margin: 0;
+}
+
+.back-btn, .next-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.back-btn {
+    margin-right: 10px;
+}

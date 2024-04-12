@@ -1,0 +1,59 @@
+/* tracking.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1, h2 {
+    margin: 20px 0;
+}
+
+.graph-section, .upcoming-workout-section {
+    text-align: center;
+    padding: 10px;
+}
+
+.workout-icon {
+    width: 2px; /* Adjust size of icons */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add space between icons and upcoming events */
+}
+
+.navigation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    text-align: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation i {
+    margin-right: 5px;
+}

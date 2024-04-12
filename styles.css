@@ -1,0 +1,92 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1, h2 {
+    margin: 20px 0;
+}
+
+.introduction, .get-burn {
+    text-align: center;
+    padding: 20px;
+}
+
+.next-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.cycling-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+/* Additional styles for the "Create Account" page */
+.create-account {
+    text-align: center;
+    padding: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.checkbox-group {
+    margin-bottom: 20px;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.terms-condition {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.social-login {
+    margin-bottom: 20px;
+}
+
+.social-login img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.login-link {
+    font-size: 14px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker</title>
+    <link rel="stylesheet" href="tracking.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Workout Tracker</h1>
+    </header>
+    <section class="graph-section">
+        <h2>Graph</h2>
+        <canvas id="workoutGraph" width="400" height="200"></canvas> <!-- Canvas for graph -->
+    </section>
+    <section class="upcoming-workout-section">
+        <h2>Upcoming Workout</h2>
+        <div class="workout-item">
+            <img src="images\ellipse53.png" alt="Weight Loss Icon" class="workout-icon">
+            <span class="workout-name">Full Body Workout</span>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="workout-item">
+            <img src="images\ellipse54.png" alt="Muscle Gain Icon" class="workout-icon">
+            <span class="workout-name">Upper Body Workout</span>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </section>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#"><i class="fas fa-images"></i> Gallery</a></li>
+            <li><a href="#"><i class="fas fa-search"></i> Search</a></li>
+            <li><a href="#"><i class="fas fa-camera"></i> Camera</a></li>
+            <li><a href="#"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js library -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+
+    <title>Workout Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Workout Tracker</h1>
+    </header>
+    <section>
+        <h2>Track your goals</h2>
+        <p>Some introductory text...</p>
+        <img src="pinterestdownloader.com-1712825756.142806.jpg" alt="Running Man">
+        <button onclick="window.location.href='get_burn.html'">Next</button>
+    </section>
+</body>
+</html>
+

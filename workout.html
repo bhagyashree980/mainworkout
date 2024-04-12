@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Schedule</title>
+    <link rel="stylesheet" href="workout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flatpickr/dist/flatpickr.min.css">
+</head>
+<body>
+    <header>
+        <h1>Workout Schedule</h1>
+    </header>
+    <div id="calendar"></div> <!-- Calendar container -->
+    <section class="workout-time-slots">
+        <h2>Available Time Slots</h2>
+        <div class="time-slot">
+            <span class="time">6:00</span>
+            <input type="text" placeholder="Enter workout name">
+            <input type="date">
+        </div>
+        <div class="time-slot">
+            <span class="time">7:00</span>
+            <input type="text" placeholder="Enter workout name">
+            <input type="date">
+        </div>
+        <div class="time-slot">
+            <span class="time">8:00</span>
+            <input type="text" placeholder="Enter workout name">
+            <input type="date">
+        </div>
+        <div class="time-slot">
+            <span class="time">9:00</span>
+            <input type="text" placeholder="Enter workout name">
+            <input type="date">
+        </div>
+    </section>
+
+    <button id="saveButton" class="save-button">Save</button> <!-- Save button -->
+    <p id="saveMessage" class="save-message"></p> <!-- Message display -->
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script> <!-- Flatpickr library -->
+    <script src="script.js"></script>
+</body>
+</html>
